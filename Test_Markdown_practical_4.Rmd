@@ -1,0 +1,11 @@
+---
+title: "Test_Markdown_practical4"
+output: html_document
+---
+```{r}
+library(raster)
+library(here)
+jan<-raster(here("prac3_data", "wc2.0_5m_tavg_01.tif"))
+# have a look at the raster layer jan
+plot(jan)
+```
